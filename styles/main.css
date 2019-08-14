@@ -1,0 +1,678 @@
+/* GLOBALES */
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+
+h2, h3, p{
+    font-family: 'Lato', sans-serif;
+}
+
+
+h3{
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+h4 a{
+    font-size: 1.3rem;
+    justify-items: flex-end;
+    padding: 0.2rem;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+   
+}
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 96rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boton{
+    display: block;
+    padding: 6px 38px;
+    margin: auto;
+    font-size: 1.8rem;
+    border-radius: 1.6rem;
+    margin-top: 1.4rem;
+}
+
+/*btn-social*/
+.redes{
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.4rem;
+    border-radius: 100%;
+}
+
+.fb:hover {
+    border-color: #4267b2;
+    color: #4267b2;
+}
+
+.tw:hover {
+    border-color: #1ca1f2;
+    color: #1ca1f2;
+}
+
+
+/* Header */
+
+header{
+    width: 100%;
+    background: #62346f;
+
+}
+
+header .container{
+    align-items: center;
+    height: 10rem;
+
+}
+header .logo{
+    font-size: 4.2rem;
+}
+
+header .header-lef{
+    max-width: 61.4rem;
+    width: 100%;
+    align-items: center;
+    padding: 0px;
+    margin: 0rem;
+}
+
+header .menu{
+    max-width: 34.7rem;
+    width: 100%;
+    
+}
+
+header .menu .container{
+    padding: 0px;
+    
+}
+
+header .menu a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 1.4rem;
+}
+
+header .header-rigth{
+    display: flex;
+}
+
+header .header-rigth .fas{
+    padding-left: 2.1rem;
+    font-size: 1.8rem;
+    
+}
+
+    /* MAIN */
+
+/* SECTION */
+main .container{
+    padding: 2rem 0rem 3.3rem;
+    margin: auto;
+}
+
+.section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section .caja {
+    position: relative;
+}
+.section .lef{
+    width: 50%;
+   
+}
+
+.section .caja-grl{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+.section .center img{ 
+    width: 100%;
+    display: block;
+}  
+
+/* caja left */
+
+.section .caja-1{
+    padding: 1.2rem 2.1rem 1.6rem 1.7rem;
+   
+}
+
+.section .caja-grl h2{
+    font-size: 32px;
+
+}
+
+.section .caja-1 .linea{
+    border: 0.4rem #ffffff solid;
+    max-width: 5.6rem;
+    width: 100%;
+    border-radius: 5.5px;
+    margin-top:0.8rem; 
+}
+
+.section .caja-1 h3{
+    line-height: 3.2rem;
+    padding-right: 5.9rem;
+}
+
+.time{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;  
+}
+
+.section .caja1 .fonts{
+    padding-top: 1.9rem;
+}
+
+.section .fonts .redes{
+    margin-left: 1.2rem;
+}
+
+.section .bottom{
+    margin: 1.4rem auto auto;
+    justify-content: center;
+}
+.section .bottom li{
+    margin-left: 1rem;
+}
+
+/* caja center */
+
+.section .caja-2{
+    padding: 1rem 1rem 1rem 0.8rem;
+    /* left: 10px;
+    right: 10px; */
+}
+
+.section .center{
+    /* width: 16.67%; */
+   /*  padding-left: 10px;
+    padding-right: 10px; */
+}
+.section .caja-2 h4{
+    text-align: end;
+}
+
+.section .caja-2 p{
+    display:block;
+    padding-bottom: 1rem;
+}
+.section .caja-2 h3{
+    
+    font-size: 2rem;
+    padding-bottom: 1.8rem;
+    
+}
+.section .caja-2 .fonts{
+    padding-top: 1.9rem;
+}
+
+/* Caja rigth */
+
+
+.section .caja-3{
+    padding: 1.0rem 1.2rem 1.0rem 0.9rem;
+}
+.section .caja-3 h4{
+    text-align: end;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.section .caja-3 .time{
+    
+    align-items: flex-end;
+}
+
+.section .caja-3 h3{
+    font-size: 1.6rem;
+    padding-right: 8.4rem;
+}
+
+.section .cont-rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* SECCIONES */
+ 
+
+
+ .secciones{
+     width: 100%;
+     margin-top: 2.4rem;
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+
+ /* ACTUALIDAD */
+ .secciones .actual{
+    width: 66.7%; 
+    justify-content: flex-start;
+    padding-right: 0.8rem;
+ }
+
+.secciones .actual h2{
+    color: #7b3fb6;
+    font-size: 2.8rem;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+
+.section .section-art{
+    margin-bottom: 2rem;
+}
+
+ .section .caja-4{
+     padding-left: 1.1rem;
+     padding-right: 1rem;
+    
+ }
+ .section .caja-4 h3{
+     font-size: 1.6rem;
+     line-height: 2.4rem;
+     padding-right: 6.1rem;
+ }
+
+ .section .caja-4 .time{
+     margin-top: 0.2rem;
+     padding-bottom: 0.8rem;
+ }
+ .section .caja-4 h4{
+    padding-top: 1rem;
+    text-align: end;
+ }
+
+ .secciones .actual .boton{
+    border: solid 3px #7b3fb6;
+    color: #7b3fb6;
+ }
+
+ /* MAS LEIDAS */
+
+ .secciones .leidas{
+     display: flex;
+     flex-wrap: wrap;
+     width: 33.3%;
+     padding-left: 1.5rem;
+ }
+
+
+.secciones .leidas h2{
+    color: #009d78;
+    font-size: 2.8rem;
+    font-weight: bold;
+    width: 100%;
+   margin-bottom: 1.5rem;
+}   
+.secciones .leidas .boton{
+    border: solid 3px #009d78;
+    color: #009d78;
+
+ }
+ 
+   /* FOOTER */
+
+
+footer{
+    background: #62346f;
+    width: 100%;
+}
+
+footer .container{
+    align-items: center;
+}
+footer a{
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    padding: 2.2rem 0rem 2rem;
+}
+
+footer p{
+    font-size: 1.3rem;
+}
+
+
+/* SECCION PoLITICA */
+
+
+    /* HEADER */
+
+main{
+        display: flex;
+        flex-wrap: wrap;
+}
+.variados{
+    width: 100%;
+    background: #3a1045;
+}
+
+.variados .container{
+       
+    justify-content: center;
+}
+.variados .container p{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.variados .container nav{
+    width: 100%;
+}
+.variados .container ul{
+    align-items: center; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.variados .container li{
+    padding: 1.3rem 0rem 1.3rem;
+}
+
+.variados .container a{
+    font-size: 1.3rem;
+}
+
+.variados input[type="button"]{
+    width: 20px;
+    height: 20px;
+    border: 2px #000000 solid;
+    border-radius: 100%;
+    font-weight: bold;
+}
+
+/* resaltado en una seccion */
+
+header .active{
+    border-radius: 15.5px;
+    background-color: #ffffff;
+    padding: 0.9rem 1.4rem;
+    color: #000000;
+}
+
+    /* POLITICA */
+
+main .container{
+    padding-top: 1.1rem;
+    
+}
+main .politica{
+    width: 66.67%;
+}
+.politica h2{
+    font-size: 3.2rem;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 1.9rem;
+}
+
+.section-01{
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.timer{
+    color: #4d4d4d;
+    padding-bottom: 0.4rem;
+}
+
+.politica .section-01 h3{
+    font-size: 1.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.politica .section-01 .contenido{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.politica .section-01 .direccion{
+    max-width: 38.8rem;
+    padding-left: 2.1rem;
+    align-content: space-between;
+}
+
+.politica .section-01 .resumen{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.politica .section-01 .links{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+/* boton link */
+ .link{
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: block;
+    padding: 0.2rem 0.6rem; 
+}
+
+/* -------------- */
+
+.politica .links link{
+    background: #5c3667;
+}
+.politica .links ul{
+    width: 6.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.politica .links li a{
+    border-radius: 2.6rem;
+    border: #000000 2px solid;
+    display: flex;
+    font-weight: bold;
+    width: 26px;
+    height: 26px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* INTERESES */
+
+aside{
+    width: 33.33%;
+    padding-left: 13px;
+}
+.intereses{
+    margin-top: 1.1rem;
+        
+}
+
+.intereses .margint h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #009d78;
+}
+
+.intereses .links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.9rem;
+    margin-bottom: 0.7rem;
+}
+
+.intereses .link{
+    background: #ff0505;
+}
+
+.intereses h3{
+    font-size: 1.6rem;
+    padding-bottom: 0.6rem;
+    color: #000000;
+    line-height: 2rem; 
+}
+
+aside hr{
+    border: solid 2px #bdbdbd;
+    border-radius: 2rem;
+    width: 30.6rem;
+    margin: center;
+    margin: 1.9rem 0rem 2.1rem;
+}
+
+.intereses .links .backgr{
+    background: #ff00e3;
+}
+
+
+    /* SECTION DETAIL */
+
+.detail .detail{
+    margin-top: 1.5rem;
+    padding-right: 0.7rem;
+}
+
+.detail .links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail p{
+    color: #161616;
+    font-size: 1.3rem;
+    line-height: 1.8rem;    
+}
+
+.detail .timer{
+    padding-bottom: 1.2rem;
+    color: #4d4d4d;
+    font-size: 1.1rem;
+}
+
+.detail .link{
+    background: #5c3667;
+}
+.detail .relat{
+    padding-top: 2rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.detail .abso{
+    position: absolute;
+    z-index: 4;
+    bottom: 0;
+}
+
+.detail .abso p{
+    color:#ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-right: 7px;
+    height: 5.4rem;
+    align-items: center;
+    padding: 11px 32px 7px 10px;
+    text-align: justify;
+}
+
+.detail h5{
+    color: #161616;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+b{
+    font-weight: bold;
+}
+
+.detail .marsub{
+    margin-top: 1.2rem; 
+}
+.detail .marinf{
+    margin-bottom: 2.7rem;
+}
+.detail .salto{
+    margin-bottom: 0.9rem;
+}
+
+.detail .maspolit{
+    text-align: center;
+    margin-top: 4.6rem;
+}
+.detail .maspolit a{
+    color: #7b3fb6;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: 3px #7b3fb6 solid;
+    border-radius: 1.6rem;
+    padding: 0.6rem 3.8rem;
+}
+
+
+
